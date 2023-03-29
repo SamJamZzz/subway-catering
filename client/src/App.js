@@ -10,17 +10,19 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path="/"
-               element={<Home />}
-        />
-        <Route path="/school-lunch"
-               element={<SchoolLunch />}
-        />
-        <Route path="/contact-us-subway"
-               element={<Contact />}
-        />
+      <main>
+        <Routes>
+          <Route path="/"
+                element={<Home />}
+          />
+          <Route path="/school-lunch"
+                element={<SchoolLunch />}
+          />
+          <Route path="/contact-us-subway"
+                element={<Contact />}
+          />
       </Routes>
+      </main>
       <Footer />
     </div>
   );
