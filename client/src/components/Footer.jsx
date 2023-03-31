@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <a href="https://wecatersubs.com">
+      <a href="/">
         <img src="https://wecatersubs.com/wp-content/uploads/2020/05/subway-logo-new.png"
              alt="WeCaterSubs.com"
         />
