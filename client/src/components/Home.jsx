@@ -1,18 +1,19 @@
 import React from 'react';
+import './Home.css'
 
 const Home = () => {
   return (
-    <>
-      <section>
+    <div className='home-content'>
+      <section className='order-online'>
         <div>
-          <h3>DELICIOUS AND DELIVERED</h3>
-          <h1>Get all that good SUBWAY&#174; taste without going anywhere</h1>
+          <h3 className='yellow-text'>DELICIOUS AND DELIVERED</h3>
+          <h1>Get all that good <span className='yellow-text'>SUBWAY&#174;</span> taste without going anywhere</h1>
           <a href="https://order.subway.com/en-CA/restaurant/11425/menu">ORDER ONLINE</a>
         </div>
         <img src="https://wecatersubs.com/wp-content/uploads/2020/05/subway-6-inch-sub.png" alt="6-inch sub" />
       </section>
 
-      <section>
+      <section className='address-info'>
         <h2>6626B East Hastings Street, Unit B Kensington Square Plaza, Burnaby V5B 1S2</h2>
       </section>
 
@@ -65,7 +66,7 @@ const Home = () => {
       </section>
 
       <section>
-        <h2>Want a bite? Order now!</h2>
+        <h2 className='yellow-text'>Want a bite? Order now!</h2>
         <p>We Handle The Food & Drink, You Enjoy The Event! Try Subway&#174; Catering Today. Remote Ordering. Subs, Wraps & More. Catering. Make It What You Want&trade;. Quality Ingredients.</p>
         <div>
           <div>
@@ -149,7 +150,7 @@ const Home = () => {
         </div>
         <img src="https://wecatersubs.com/wp-content/uploads/2020/05/loyalty-token-with-stars.png" alt="Loyalty Token" />
       </section>
-    </>
+    </div>
   )
 };
 

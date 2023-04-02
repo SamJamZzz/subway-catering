@@ -1,0 +1,22 @@
+.home-content {
+  margin: 75px 25px 25px;
+}
+
+.yellow-text {
+  color: #ffcb09;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 4rem;
+  border-radius: 25px;
+  font-size: 1.5rem;
+}
+
+.order-online {
+  background-color: #009743;
+}
+
+.address-info {
+  background-color: #ffcb09;
+}
