@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Header.css'
+import './Header.css';
 
 const Header = () => {
   const [showOptions, setShowOptions] = useState(false);
